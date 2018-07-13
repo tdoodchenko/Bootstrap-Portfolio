@@ -5,6 +5,10 @@
     line-height: 1.5;
 }
 
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .nav1 {
     background-color: antiquewhite
 }
@@ -12,6 +16,11 @@
 .row {
     padding: 10px;
 
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .img-sm {
@@ -25,10 +34,6 @@
     
 }
 
-
-h5 {
-    font-size: 16px;
-}
 
 .section {
     margin-bottom: 20px;
@@ -49,7 +54,7 @@ h5 {
 }
 
 #img-con {
-    width: 300px;
+    width: 400px;
     height: auto;
     object-fit: contain;
     float: left;
