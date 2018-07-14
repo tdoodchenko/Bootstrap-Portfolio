@@ -36,7 +36,8 @@ h1 {
 
 
 .section {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    margin-top: 40px;
 
 }
 
@@ -65,3 +66,7 @@ P {
     padding-top: 15px;
 
 }
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
