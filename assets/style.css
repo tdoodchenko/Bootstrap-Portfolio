@@ -3,6 +3,8 @@
 .container {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
+    padding-bottom: 200px;
+    
 }
 
 header {
@@ -14,13 +16,15 @@ header {
 }
 
 .row {
-    padding: 10px;
+    padding: 0
 
 }
 
 h1 {
     font-size: 40px;
     font-weight: bold;
+    padding: 10px;
+
 }
 
 .img-sm {
@@ -36,8 +40,10 @@ h1 {
 
 
 .section {
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     margin-top: 40px;
+  
+  
 
 }
 
@@ -60,13 +66,24 @@ h1 {
     object-fit: contain;
     float: left;
     margin-right: 30px;
+    padding: 10px;
 }
 
 P {
     padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
 
+}
+
+.card {
+  margin-bottom: 30px;
 }
 
 .navbar-collapse.collapse.in {
     display: block!important;
   }
+
+#con-sm {
+    padding: 10px;
+}
